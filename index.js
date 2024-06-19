@@ -1,6 +1,6 @@
 'use strict'
 
-const Buffer = require('node:buffer').Buffer
+import { Buffer } from 'node:buffer';
 const types = require('./types')
 const rcodes = require('./rcodes')
 const opcodes = require('./opcodes')
